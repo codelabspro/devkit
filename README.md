@@ -1,6 +1,21 @@
 # devkit
 DevKit is an opinionated framework-less framework for doing all the things which aims to offer a great DX (developer experience)
 
+
+## Prerequisites
+
+```
+{"node":">=16.14"}`
+
+==> node --version
+v16.13.2
+
+==> brew upgrade node
+
+==> node --version
+v16.18.1
+```
+
 ## Steps for devkit-demo
 
 * Boostrap dev-kit-demo using the following steps
@@ -49,4 +64,12 @@ Next steps:
 To close the dev server, hit Ctrl-C
 
 Stuck? Visit us at https://svelte.dev/chat
+```
+## Develop
+* Run in dev mode using
+
+```
+==> npm install
+
+==> npm run dev
 ```
